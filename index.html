@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="input_container">
+    <form action="https://www.google.com/" method="post">
+        <fieldset>
+            <legend>Контактна інформація</legend>
+            <div class="input1"><label for="name">Ім’я <em>*</em></label>
+                <input type="text" id="name"></div>
+            <div class="input1"><label for="email">E-mail</label>
+                <input type="email" id="email"></div>
+            <div class="input1"><label for="phone">Телефон</label>
+                <input type="tel" id="phone"></div>
+                <select>
+                    <option>-</option>
+                    <option>Україна</option>
+                    <option>Канада</option>
+                    <option>Японія</option>
+                    <option>Німеччина</option>
+                    <option>Австралія</option>
+                    <option>Бразилія</option>
+                    <option>Індія</option>
+                    <option>Франція</option>
+                    <option>Італія</option>
+                    <option>Сполучені Штати Америки</option>
+                  </select>
+                  <div class="textarea-container">
+                    <label for="multiline-text">Текст:</label>
+                    <textarea id="multiline-text" name="multiline-text" rows="5" cols="50" maxlength="500"></textarea>
+                  </div>
+                  <div>
+                    <label for="checkbox-id">
+                    <input type="checkbox" id="checkbox-id" class="checkbox"/>
+                  <span class="fake"></span> <span class="text">checkbox</span></label>
+                  </div>
+            
+                  
+                 
+    </fieldset>
+        <button type="submit">Відправити</button>
+    </form>
+</div>    
+</body>
+</html>
